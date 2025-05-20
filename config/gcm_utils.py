@@ -179,7 +179,7 @@ class aes_conf(object):
         self.set_default_value( self.args.iv       , self.args.seed , 'iv'        , RANDOM_PARAM )
         self.set_default_value( self.args.aad      , self.args.seed , 'aad'       , RANDOM_PARAM )
         self.set_default_value( self.args.data     , self.args.seed , 'data'      , RANDOM_PARAM )
-        self.set_default_value( self.args.compiler , self.args.seed , 'compiler'  , 'ghdl'       )
+        self.set_default_value( self.args.compiler , self.args.seed , 'compiler'  , 'icarus'       )
 
         self.conf_param['max_n_byte'] = test_size[self.conf_param['test_size']]
 
